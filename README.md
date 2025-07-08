@@ -1,49 +1,45 @@
-EY Biodiversity Challenge – Frog Presence Classification
-Team Members:
+# EY Biodiversity Challenge – Frog Presence Classification
 
-Samarth Verma
+**Description:**  
+Built and optimized classification models to predict frog presence using climate and environmental data. Final model (ExtraTreesClassifier) achieved 83.1% accuracy and F1 score.
 
-Haeun Kim
+## Team Members
+- Samarth Verma  
+- Haeun Kim  
+- Jayasree Lakshmi Narayanan  
 
-Jayasree Lakshmi Narayanan
+---
 
-#Project Overview
-This project focuses on predicting frog presence in specific ecosystems using environmental and climate data. The dataset included features such as temperature, precipitation, vapor pressure deficit, and soil type. The objective was to build an accurate classification model that supports biodiversity conservation efforts.
+## Project Overview
+This project aimed to predict frog presence based on ecological and climate-related factors, contributing to biodiversity conservation insights. Various preprocessing and modeling strategies were explored.
 
-#Problem Statement
-Binary Classification: Predict frog presence (1) or absence (0)
+---
 
-Imbalance: The dataset was highly imbalanced (Presence: 3,792 vs Absence: 2,520)
+## Methodology
 
-#Data Preprocessing
-Feature Selection: Chose relevant features using domain knowledge and correlation analysis
+### Data Preparation
+- Feature selection using correlation analysis and domain knowledge  
+- Handled class imbalance using `RandomOverSampler`  
+- Removed outliers using Z-score method  
+- Encoded categorical variables and standardized numerical features  
 
-Outlier Handling: Z-score method applied to minimize the effect of extreme values
+### Models Explored
+- LightGBM  
+- XGBoost  
+- ExtraTreesClassifier (final model)  
 
-Balancing: Used RandomOverSampler to balance the target variable classes
+---
 
-#Models Explored
-LightGBM
+## Final Model Performance
+- **Model:** ExtraTreesClassifier  
+- **Test Accuracy:** 0.831  
+- **F1 Score:** 0.83  
+- Strong generalization, reduced overfitting  
 
-XGBoost
+---
 
-ExtraTreesClassifier (Final model)
-
-#Final Model Performance
-Model: ExtraTreesClassifier
-
-<img width="409" alt="Screenshot 2025-07-08 at 10 22 17 AM" src="https://github.com/user-attachments/assets/a337ea85-1abf-417f-8bea-5f530a9a9586" />
-
-Test Accuracy: 83.1%
-
-F1 Score: 0.83
-
-Chosen for: Strong generalization and minimal overfitting
-
-##Key Learnings
-Hyperparameter tuning significantly boosts performance
-
-Ensemble methods outperform gradient boosting in this case
-
-Preprocessing (balancing, feature refinement, and outlier removal) is crucial for model success
+## Key Learnings
+- Hyperparameter tuning significantly improved performance  
+- Ensemble methods provided robust results  
+- Proper data preprocessing (balancing + outlier handling) was critical to success  
 
