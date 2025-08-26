@@ -6,7 +6,7 @@ Built and optimized classification models to predict frog presence using climate
 ## Team Members
 - Samarth Verma  
 - Haeun Kim  
-- Jayasree Lakshmi Narayanan  
+- Jayasree Lakshmi Narayanan
 
 ---
 
