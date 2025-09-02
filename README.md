@@ -8,12 +8,12 @@ Built and optimized classification models to predict frog presence using climate
 - Haeun Kim  
 - Jayasree Lakshmi Narayanan
 
----
+----
 
 ## Project Overview
 This project aimed to predict frog presence based on ecological and climate-related factors, contributing to biodiversity conservation insights. Various preprocessing and modeling strategies were explored.
 
----
+----
 
 ## Methodology
 
